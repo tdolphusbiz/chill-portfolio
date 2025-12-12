@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titus Dolphins - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a1783414f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="font-alumni-sans-inline-one">
+      <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-left">
+        <h1>Titus Dolphus</h1>
+      </div>
+      <div class="nav-right">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </nav>
+
+    <div class="mobile-menu-overlay">
+      <button class="mobile-menu-close" aria-label="Close mobile menu">
+        &times;
+      </button>
+
+      <div class="mobile-menu-content">
+        <h3>Titus Dolphus</h3>
+        <a href="#about" class="mobile-menu-link">ABOUT</a>
+        <a href="#skills" class="mobile-menu-link">SKILLS</a>
+        <a href="#projects" class="mobile-menu-link">PROJECTS</a>
+      </div>
+    </div>
+
+    <main class="site-width">
+      <section class="hero font-amatic-sc" id="hero">
+        <h2>SO YOU'RE WONDERING<br />ABOUT...</h2>
+        <div>
+          <button class="font-amatic-sc">
+            Titus <img src="images/pointer.png" alt="pointer" class="pointer" />
+          </button>
+          <button class="font-amatic-sc">His Skills</button>
+          <button class="font-amatic-sc">His Projects</button>
+        </div>
+      </section>
+
+      <section id="about">
+        <div><h2 class="font-amatic-sc">Who is Titus?</h2></div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            finibus augue vel eleifend dapibus. Aenean condimentum elit in
+            ultrices sollicitudin. Vivamus in euismod lectus. Donec vitae
+            condimentum turpis. Vivamus rutrum porttitor odio. Pellentesque sit
+            amet tempus eros, eu semper velit. Nullam vitae leo vestibulum,
+            blandit sem non, fringilla erat. Cras aliquam porttitor eros, eget
+            faucibus risus dignissim sit amet. Cras sit amet iaculis elit,
+            volutpat finibus urna. Etiam felis nibh, volutpat at venenatis
+            vitae, elementum a mi. Sed vel suscipit mauris. Donec porttitor erat
+            turpis.
+          </p>
+          <p>
+            Phasellus eget porttitor lectus. Nam malesuada, mauris id suscipit
+            imperdiet, lectus felis pretium justo, et lobortis mi metus a orci.
+            Vestibulum hendrerit vehicula tempor. Quisque ut viverra tortor.
+            Nullam massa diam, dignissim vitae maximus at, dapibus at ligula. In
+            hac habitasse platea dictumst. Nulla egestas, ligula ut ullamcorper
+            ultrices, arcu nisi rhoncus leo, eget porta magna massa eget libero.
+            Praesent nec ex ut neque ullamcorper blandit gravida eget lectus.
+            Suspendisse dignissim mi sit amet leo mattis varius. Aenean at
+            egestas nibh. Sed porttitor diam ex, maximus elementum purus sodales
+            ut. Ut eu condimentum ipsum. Donec magna orci, faucibus vitae augue
+            sit amet, ullamcorper sagittis justo. Nunc a erat faucibus diam
+            sollicitudin maximus ultrices ut sapien. Nulla vitae nisl sit amet
+            magna porttitor pharetra. Suspendisse aliquet volutpat pulvinar.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="skills-left">
+          <h2 class="font-amatic-sc">What is he good at?</h2>
+          <div class="skills-tags">
+            <button class="skill-tag active" data-skill="html">HTML</button>
+            <button class="skill-tag" data-skill="css">CSS</button>
+            <button class="skill-tag" data-skill="javascript">
+              JavaScript
+            </button>
+            <button class="skill-tag" data-skill="typescript">
+              TypeScript
+            </button>
+            <button class="skill-tag" data-skill="react">React</button>
+            <button class="skill-tag" data-skill="nextjs">Next.js</button>
+            <button class="skill-tag" data-skill="node">Node.js</button>
+            <button class="skill-tag" data-skill="tailwind">TailwindCSS</button>
+            <button class="skill-tag" data-skill="jest">Jest</button>
+            <button class="skill-tag" data-skill="cypress">Cypress</button>
+            <button class="skill-tag" data-skill="git">Git</button>
+            <button class="skill-tag" data-skill="cicd">CI/CD</button>
+            <button class="skill-tag" data-skill="api">API Development</button>
+            <button class="skill-tag" data-skill="performance">
+              Performance
+            </button>
+            <button class="skill-tag" data-skill="uiux">UI / UX</button>
+          </div>
+        </div>
+        <div class="skills-right">
+          <article class="skill-detail active" data-skill="html">
+            <div class="skill-icon">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div>
+              <h3>HTML</h3>
+              <p>
+                I use semantic HTML to build accessible, well-structured
+                interfaces that support strong SEO and screen-reader
+                compatibility. I focus on writing clean, maintainable markup
+                that provides a solid foundation for styling and interactivity.
+                I ensure every page is structured for clarity, performance, and
+                long-term scalability.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="css">
+            <div class="skill-icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div>
+              <h3>CSS</h3>
+              <p>
+                I leverage modern CSS techniques to create responsive, visually
+                appealing layouts that work across all devices. I'm comfortable
+                with Flexbox, Grid, animations, and architectural patterns that
+                keep styles organized. My goal is to transform design concepts
+                into clean, consistent user experiences.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="javascript">
+            <div class="skill-icon">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div>
+              <h3>JavaScript</h3>
+              <p>
+                I write modern JavaScript focused on clarity, reliability, and
+                performance. I use ES6+ features to build dynamic, interactive
+                interfaces that provide seamless user experiences. I'm
+                experienced in debugging, optimizing, and architecting
+                JavaScript code for scalable applications.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="typescript">
+            <div class="skill-icon">
+              <i class="fa-solid fa-code-branch"></i>
+            </div>
+            <div>
+              <h3>TypeScript</h3>
+              <p>
+                I use TypeScript to build safer, more maintainable applications
+                through strong typing and predictable code behavior. I enjoy
+                designing clear type systems and interfaces that improve
+                developer experience. With TypeScript, I reduce bugs, improve
+                refactoring, and increase long-term stability.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="react">
+            <div class="skill-icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <div>
+              <h3>React</h3>
+              <p>
+                I build reusable, component-driven UIs in React that prioritize
+                performance and maintainability. I'm experienced with hooks,
+                state management patterns, and rendering optimizations. My focus
+                is on creating intuitive, responsive, and accessible front-end
+                experiences.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="nextjs">
+            <div class="skill-icon">
+              <i class="fa-solid fa-forward-step"></i>
+            </div>
+            <div>
+              <h3>Next.js</h3>
+              <p>
+                I use Next.js to develop fast, production-ready applications
+                with SSR, SSG, and API routes. I take advantage of its routing,
+                data-fetching patterns, and performance optimizations. This
+                enables me to build scalable apps with excellent SEO and user
+                experience.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="node">
+            <div class="skill-icon">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+            <div>
+              <h3>Node.js</h3>
+              <p>
+                I build backend services with Node.js that are efficient,
+                secure, and easy to extend. I use it to create REST APIs, handle
+                server-side logic, and interact with databases. My focus is on
+                writing clean server code that supports robust front-end
+                applications.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="tailwind">
+            <div class="skill-icon">
+              <i class="fa-solid fa-wind"></i>
+            </div>
+            <div>
+              <h3>TailwindCSS</h3>
+              <p>
+                I use TailwindCSS to rapidly build responsive, consistent UI
+                while keeping my styles clean and maintainable. Its
+                utility-first approach helps me iterate quickly and stay aligned
+                with design requirements. I use component extraction and custom
+                configuration to create scalable style systems.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="jest">
+            <div class="skill-icon">
+              <i class="fa-solid fa-vial"></i>
+            </div>
+            <div>
+              <h3>Jest</h3>
+              <p>
+                I rely on Jest to write fast, reliable unit tests that ensure
+                code correctness and stability. I enjoy creating clear test
+                suites that prevent regressions and improve developer
+                confidence. With Jest, I maintain high-quality code across
+                growing codebases.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="cypress">
+            <div class="skill-icon">
+              <i class="fa-solid fa-microscope"></i>
+            </div>
+            <div>
+              <h3>Cypress</h3>
+              <p>
+                I use Cypress to test full user flows and guarantee that
+                critical application features work as expected. Its real-browser
+                testing gives me confidence in UI behavior, integrations, and
+                edge cases. I write tests that simulate real user interactions
+                and protect the product from regressions.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="git">
+            <div class="skill-icon">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <div>
+              <h3>Git</h3>
+              <p>
+                I use Git daily to manage version control, maintain clean commit
+                histories, and collaborate effectively with teams. I'm
+                comfortable with branching strategies, pull requests, and
+                resolving merge conflicts. My goal is to keep projects
+                organized, traceable, and easy for teams to work on.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="cicd">
+            <div class="skill-icon">
+              <i class="fa-solid fa-gears"></i>
+            </div>
+            <div>
+              <h3>CI/CD</h3>
+              <p>
+                I set up CI/CD pipelines to automate testing, building, and
+                deployments for consistent and reliable releases. Automation
+                helps me catch issues early and ship features faster. I focus on
+                creating pipelines that are efficient, secure, and easy for
+                teams to maintain.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="api">
+            <div class="skill-icon">
+              <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <div>
+              <h3>API Development</h3>
+              <p>
+                I design and build APIs that are cleanly structured, performant,
+                and easy to consume. I enjoy writing clear documentation and
+                ensuring endpoints follow predictable patterns. My API work
+                focuses on scalability, security, and long-term maintainability.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="performance">
+            <div class="skill-icon">
+              <i class="fa-solid fa-gauge-high"></i>
+            </div>
+            <div>
+              <h3>Performance</h3>
+              <p>
+                I prioritize front-end performance by optimizing rendering,
+                reducing bundle sizes, and improving load times. I regularly use
+                profiling tools to diagnose bottlenecks and improve
+                responsiveness. My goal is always to deliver fast, smooth, and
+                accessible user experiences.
+              </p>
+            </div>
+          </article>
+          <article class="skill-detail" data-skill="uiux">
+            <div class="skill-icon">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <div>
+              <h3>UI / UX</h3>
+              <p>
+                I design interfaces that are intuitive, accessible, and visually
+                engaging. I focus on creating experiences that minimize friction
+                and help users reach their goals quickly. My process blends
+                usability best practices with thoughtful visual design.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h3>Titus Dolphus</h3>
+      <div>
+        <a href="https://www.linkedin.com/in/tdolphus/"> LinkedIn </a>
+        &nbsp;/&nbsp;
+        <a href="https://github.com/tdolphusbiz"> GitHub </a> &nbsp;/&nbsp;
+        <a href="mailto:contact@titusdolphus.com">contact@titusdolphus.com</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
