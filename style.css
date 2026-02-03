@@ -281,6 +281,16 @@ main {
     line-height: 1.5;
     margin-bottom: 2rem;
   }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    padding-top: 10rem;
+
+    div:nth-child(1),
+    div:nth-child(2) {
+      flex-basis: 100%;
+    }
+  }
 }
 
 /* Skills Section */
