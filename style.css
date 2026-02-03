@@ -100,6 +100,17 @@ main {
   border: none;
   cursor: pointer;
   padding: 0.5rem;
+  z-index: 1001;
+}
+
+@media (max-width: 1024px) {
+  .mobile-menu-toggle {
+    display: flex;
+  }
+
+  .nav-right {
+    display: none;
+  }
 }
 
 .mobile-menu-toggle span {
@@ -209,18 +220,10 @@ main {
     left: -8rem;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     nav {
       padding: 1.25rem 2rem;
       font-size: 2rem;
-    }
-
-    .nav-right {
-      display: none;
-    }
-
-    .mobile-menu-toggle {
-      display: flex;
     }
 
     /* Hero */
